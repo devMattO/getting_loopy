@@ -1,3 +1,5 @@
+// Function #1 - Presidents
+
 var presidents = ['Washington','Adams','Jefferson','Madison','Monroe'];
 
 function loopFunc(presidents) {
@@ -8,3 +10,13 @@ function loopFunc(presidents) {
 	}
 }
 loopFunc(presidents);
+
+// Function #2 - The String of Numbers
+
+var stringOfNumbers = '';
+
+for (var i = 10; i <= 20; i++) {
+	stringOfNumbers += i;
+}
+console.log(stringOfNumbers);
+
