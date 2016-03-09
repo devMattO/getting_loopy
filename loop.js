@@ -20,3 +20,12 @@ for (var i = 10; i <= 20; i++) {
 }
 console.log(stringOfNumbers);
 
+// Function #3 - Add Only Even Numbers to an Array
+
+var evenNumberArray = []; 
+
+for (var i = 0; i <= 100; i += 2) {
+	evenNumberArray.push(i);
+}
+
+console.log(evenNumberArray);
