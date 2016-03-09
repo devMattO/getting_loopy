@@ -50,12 +50,15 @@ for (var i = oopsArray.length-1; i > 0; i--) {
 var isNapTime = false;
 var napSchedule = [false, false, true, false, true, true];
 
-function nap(schedule) {
+function nap(schedule){
 	if (schedule === true) {
-		console.log('ZzZzZzZz');
+		console.log("ZzZzZzZz");
 	}else{
-		console.log('Gotta get to work!');
-			isNapTime = true;
+		console.log("Gotta get to work!");
+		var isNapTime = true;
 	}
 }
-nap(isNapTime);
+
+for (var i = 0; i < napSchedule.length; i++) {
+	var answer = nap(napSchedule[i]);
+}
