@@ -29,3 +29,14 @@ for (var i = 0; i <= 100; i += 2) {
 }
 
 console.log(evenNumberArray);
+
+// Function #4 - Accessing Only the Odd Indexes of an Array
+
+var oopsArray = [ 'turn' , '' , 'down' , '' , 'for' , '' , 'what' ];
+
+for (var i = 1; i < oopsArray.length; i += 2) {
+	oopsArray.splice(i, 1, 'nope');
+}
+console.log(oopsArray);
+
+
