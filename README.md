@@ -20,6 +20,7 @@ Now write a _FOR_ loop which iterates through this Array.
 Within the _FOR_ loop, use `console.log` to:
 
 - Log the value of `i`. Use a message like `Value of i is: ` and append the value of `i` to this String
+
 - Log what is at index `i` in the array. Use a message like `Value at Index is: ` and append the value stored within the Array at that index.
 
 `console.log` is a great tool to give you feed back about your loops and the data that you're working with. When all else fails use `console.log` to inspect and debug your code.
