@@ -62,3 +62,16 @@ function nap(schedule){
 for (var i = 0; i < napSchedule.length; i++) {
 	var answer = nap(napSchedule[i]);
 }
+
+// For Loop 7 - CopyArray
+
+var copyOfValuesArray = [];
+var valuesArray = [99, 66, 829, 1941, 8, 76];
+
+function copyArray(originArray, destinationArray){
+	for (var i = 0; i < originArray.length; i++) {
+		destinationArray.push(originArray[i]);
+	}
+}
+copyArray(valuesArray, copyOfValuesArray);
+console.log(copyOfValuesArray);
